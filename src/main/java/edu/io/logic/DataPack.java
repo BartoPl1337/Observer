@@ -9,6 +9,14 @@ public class DataPack {
         this.price = price;
     }
 
+    public double price() {
+        return price;
+    }
+
+    public long timestamp() {
+        return timestamp;
+    }
+
     @Override
     public String toString() {
         return "Price = " + price + "Time = " + timestamp;
