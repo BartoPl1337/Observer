@@ -10,7 +10,6 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 
 class Test_PubSub_3 {
-/*
     Publisher publisher;
     Subscriber testSubscriber;
     Object t;
@@ -30,7 +29,7 @@ class Test_PubSub_3 {
     void subscriber_get_update() {
         publisher.subscribe(testSubscriber);
         publisher.publish(13);
-        Assertions.assertEquals(13, (Integer)t);
+        Assertions.assertEquals(13, (Integer) t);
     }
 
     @Test
@@ -39,7 +38,7 @@ class Test_PubSub_3 {
         publisher.unsubscribe(testSubscriber);
         t = 7;
         publisher.publish(13);
-        Assertions.assertEquals(7, (Integer)t);
+        Assertions.assertEquals(7, (Integer) t);
     }
 
     @Test
@@ -59,5 +58,4 @@ class Test_PubSub_3 {
         pl.update(new DataPack(3.14, 0));
         Assertions.assertTrue(new File("price.log").exists());
     }
- */
 }
